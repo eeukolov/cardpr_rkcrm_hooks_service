@@ -30,11 +30,11 @@ R-Keeper CRM v7 [руководство пользователя](https://docs.u
 Далее запустить Службу **Client.LS**.
 
 Далее в папке назначения необходимо в файле **settingLs** прописать в секцию **Host** текущее имя компьтера и порт (по умолчанию 1300), например 
-`<?xml version="1.0"?>
-<SettingLs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<Host>Computername</Host>
-<Port>1300</Port>
-</SettingLs>`
+`<?xml version="1.0"?>`
+`<SettingLs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">`
+`<Host>Computername</Host>`
+`<Port>1300</Port>`
+`</SettingLs>`
 
 Далее для настройки приложения необходимо запустить файл **ServCardPr.exe**.
 Далее потребуется заполнить параметры приложения.
